@@ -4,3 +4,5 @@ deepspeed==0.9.1
 datasets>=2.12.0
 accelerate>=0.18.0
 tensorboard
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
